@@ -183,6 +183,14 @@ console.log( out );
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   [`@stdlib/utils/count-by`][@stdlib/utils/count-by]: group values according to an indicator function and return group counts.
+-   [`@stdlib/utils/group-by`][@stdlib/utils/group-by]: group values according to an indicator function.
+-   [`@stdlib/utils/tabulate`][@stdlib/utils/tabulate]: generate a frequency table.
+
 </section>
 
 <!-- /.related -->
@@ -249,6 +257,16 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
 
 [mdn-object]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object
+
+<!-- <related-links> -->
+
+[@stdlib/utils/count-by]: https://github.com/stdlib-js/utils-count-by
+
+[@stdlib/utils/group-by]: https://github.com/stdlib-js/utils-group-by
+
+[@stdlib/utils/tabulate]: https://github.com/stdlib-js/utils-tabulate
+
+<!-- </related-links> -->
 
 </section>
 
