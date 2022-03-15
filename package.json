@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/utils-tabulate-by",
-  "version": "0.0.8",
+  "version": "0.0.0",
   "description": "Generate a frequency table according to an indicator function.",
   "license": "Apache-2.0",
   "author": {
@@ -41,6 +41,7 @@
     "@stdlib/assert-is-collection": "^0.0.x",
     "@stdlib/assert-is-function": "^0.0.x",
     "@stdlib/assert-is-plain-object": "^0.0.x",
+    "@stdlib/string-format": "^0.0.x",
     "@stdlib/types": "^0.0.x",
     "@stdlib/utils-index-of": "^0.0.x"
   },
