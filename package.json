@@ -1,0 +1,44 @@
+{
+  "name": "@stdlib/utils-tabulate-by",
+  "version": "0.0.0",
+  "description": "Generate a frequency table according to an indicator function.",
+  "license": "Apache-2.0",
+  "main": "./bundle.js",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/utils-tabulate-by.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdutils",
+    "stdutil",
+    "utilities",
+    "utility",
+    "utils",
+    "util",
+    "tabulate",
+    "table",
+    "frequency",
+    "frequencies",
+    "aggregate",
+    "partition",
+    "summarize",
+    "tally",
+    "total",
+    "count",
+    "count-by",
+    "array",
+    "typed array",
+    "typed-array",
+    "collection",
+    "array-like"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
