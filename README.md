@@ -34,38 +34,30 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/utils-tabulate-by
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-tabulateBy = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-tabulate-by@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var tabulateBy = require( 'path/to/vendor/umd/utils-tabulate-by/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-tabulate-by@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.tabulateBy;
-})();
-</script>
+var tabulateBy = require( '@stdlib/utils-tabulate-by' );
 ```
 
 #### tabulateBy( collection\[, options,] indicator )
@@ -154,15 +146,10 @@ The returned frequency table is an `array` of `arrays`. Each sub-array correspon
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-floor@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-tabulate-by@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var randu = require( '@stdlib/random-base-randu' );
+var floor = require( '@stdlib/math-base-special-floor' );
+var tabulateBy = require( '@stdlib/utils-tabulate-by' );
 
 var vals;
 var arr;
@@ -186,11 +173,6 @@ for ( i = 0; i < arr.length; i++ ) {
 // Generate a frequency table:
 out = tabulateBy( arr, indicator );
 console.log( out );
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -298,11 +280,11 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/utils/count-by]: https://github.com/stdlib-js/utils-count-by/tree/umd
+[@stdlib/utils/count-by]: https://github.com/stdlib-js/utils-count-by
 
-[@stdlib/utils/group-by]: https://github.com/stdlib-js/utils-group-by/tree/umd
+[@stdlib/utils/group-by]: https://github.com/stdlib-js/utils-group-by
 
-[@stdlib/utils/tabulate]: https://github.com/stdlib-js/utils-tabulate/tree/umd
+[@stdlib/utils/tabulate]: https://github.com/stdlib-js/utils-tabulate
 
 <!-- </related-links> -->
 
