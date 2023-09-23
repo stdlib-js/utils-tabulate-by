@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import tabulateBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-tabulate-by@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/utils-tabulate-by/tags). For example,
+
+```javascript
 import tabulateBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-tabulate-by@v0.1.0-esm/index.mjs';
 ```
 
@@ -149,7 +154,7 @@ The returned frequency table is an `array` of `arrays`. Each sub-array correspon
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
 import floor from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-floor@esm/index.mjs';
-import tabulateBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-tabulate-by@v0.1.0-esm/index.mjs';
+import tabulateBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-tabulate-by@esm/index.mjs';
 
 var vals;
 var arr;
