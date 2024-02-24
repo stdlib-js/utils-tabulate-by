@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import tabulateBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-tabulate-by@esm/index.mjs';
+import tabulateBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-tabulate-by@v0.2.1-esm/index.mjs';
 ```
 
 #### tabulateBy( collection\[, options,] indicator )
@@ -149,7 +149,7 @@ The returned frequency table is an `array` of `arrays`. Each sub-array correspon
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
 import floor from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-floor@esm/index.mjs';
-import tabulateBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-tabulate-by@esm/index.mjs';
+import tabulateBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-tabulate-by@v0.2.1-esm/index.mjs';
 
 var vals;
 var arr;
