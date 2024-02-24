@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import tabulateBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-tabulate-by@deno/mod.js';
+import tabulateBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-tabulate-by@v0.2.1-deno/mod.js';
 ```
 
 #### tabulateBy( collection\[, options,] indicator )
@@ -144,7 +144,7 @@ The returned frequency table is an `array` of `arrays`. Each sub-array correspon
 ```javascript
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
 import floor from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-floor@deno/mod.js';
-import tabulateBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-tabulate-by@deno/mod.js';
+import tabulateBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-tabulate-by@v0.2.1-deno/mod.js';
 
 var vals;
 var arr;
