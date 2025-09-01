@@ -45,14 +45,32 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/utils-tabulate-by
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import tabulateBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-tabulate-by@deno/mod.js';
+var tabulateBy = require( '@stdlib/utils-tabulate-by' );
 ```
 
 #### tabulateBy( collection\[, options,] indicator )
@@ -71,8 +89,8 @@ var out = tabulateBy( arr, indicator );
 
 An `indicator` function is provided two arguments:
 
--   `value`: collection element
--   `index`: collection index
+-   `value`: collection element.
+-   `index`: collection index.
 
 ```javascript
 function indicator( v, i ) {
@@ -113,9 +131,9 @@ console.log( context.count );
 
 The returned frequency table is an `array` of `arrays`. Each sub-array corresponds to a unique value in the input `collection` and is structured as follows:
 
--   `0`: unique value
--   `1`: value count
--   `2`: frequency percentage
+-   `0`: unique value.
+-   `1`: value count.
+-   `2`: frequency percentage.
 
 </section>
 
@@ -142,9 +160,9 @@ The returned frequency table is an `array` of `arrays`. Each sub-array correspon
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
-import floor from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-floor@deno/mod.js';
-import tabulateBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-tabulate-by@deno/mod.js';
+var randu = require( '@stdlib/random-base-randu' );
+var floor = require( '@stdlib/math-base-special-floor' );
+var tabulateBy = require( '@stdlib/utils-tabulate-by' );
 
 var vals;
 var arr;
@@ -207,7 +225,7 @@ console.log( out );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -224,7 +242,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
@@ -278,11 +296,11 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/utils/count-by]: https://github.com/stdlib-js/utils-count-by/tree/deno
+[@stdlib/utils/count-by]: https://github.com/stdlib-js/utils-count-by
 
-[@stdlib/utils/group-by]: https://github.com/stdlib-js/utils-group-by/tree/deno
+[@stdlib/utils/group-by]: https://github.com/stdlib-js/utils-group-by
 
-[@stdlib/utils/tabulate]: https://github.com/stdlib-js/utils-tabulate/tree/deno
+[@stdlib/utils/tabulate]: https://github.com/stdlib-js/utils-tabulate
 
 <!-- </related-links> -->
 
